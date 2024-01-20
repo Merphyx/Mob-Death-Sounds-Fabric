@@ -112,7 +112,7 @@ public class MobDeathSoundClient implements ClientModInitializer {
 
                             int currentValue = client.player.getStatHandler().getStat(stat);
                             if (currentValue > previousStatisticValue) {
-                                client.player.playSound(SoundEvent.of(config.soundEvent), 11f, config.soundPitch);
+                                client.player.playSound(SoundEvent.of(config.soundEvent), 1f, config.soundPitch);
 
                                 previousStatisticValue = currentValue;
                             }
