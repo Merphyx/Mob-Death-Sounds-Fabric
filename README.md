@@ -3,7 +3,7 @@ A simple mod that plays a sound when the mob kill status is increased.
 
 **Commands:**
 
-/mobs set <sound> <pitch> [ This lets you set the desired sound. ]
+/mobs set [sound] [pitch] [ This lets you set the desired sound. ]
 
 
 /mobs on/off [ This lets you activate/deactivate the mod. ] 
