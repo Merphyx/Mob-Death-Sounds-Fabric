@@ -21,6 +21,7 @@ public class MobDeathSoundConfig {
     public static final float DEFAULT_SOUND_PITCH = 1.0f;
     public float soundPitch = 1.0f;
     public boolean doSound = true;
+
     public void loadConfig() {
         if (!configFile.exists()) {
             createDefaultConfig();
