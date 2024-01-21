@@ -24,7 +24,7 @@ import net.minecraft.world.World;
 public class MobDeathSoundClient implements ClientModInitializer {
             private World previousWorld;
             private int updateTimer;
-            private int previousStatisticValue = 0;
+            private int previousStatisticValue;
             private final MobDeathSoundConfig config = new MobDeathSoundConfig();
 
             @Override
