@@ -79,6 +79,7 @@ public class MobDeathSoundClient implements ClientModInitializer {
 
                                                                 if (context.getSource().getClient().player != null) {
                                                                     context.getSource().getClient().player.sendMessage(Text.literal("Set Death-Sound to: §a" + soundId + "§f | Pitch: " + pitch), true);
+                                                                    context.getSource().getClient().player.playSound(SoundEvent.of(config.soundEvent), 1f, config.soundPitch);
                                                                 }
 
                                                                 config.saveConfig();
